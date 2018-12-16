@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Body mass</title>
+    <script src="js/body.js" defer></script>
+	<link href="css/body.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <div align="center" id="block">
+        <div class="text">                       <!--BEGIN TEXT-->
+             <h2  align="center">Понятие об индексе массы человека</h2>
+			                      <hr/ size = "3" color="blue">
+             <p align="left"> Индекс массы тела (англ. body mass index (BMI), ИМТ) — величина, позволяющая оценить степень соответствия массы человека и его роста и тем самым косвенно оценить, является ли масса недостаточной, нормальной или избыточной. Важен при определении показаний для необходимости лечения.
+			  <br/> Показатель индекса массы тела разработан бельгийским социологом и статистиком Адольфом Кетеле (Adolphe Quetelet) в 1869 году, и применяться только для взрослых.
+                <br/>Индекс массы тела следует применять с осторожностью, исключительно для ориентировочной оценки — например, попытка оценить с его помощью телосложение профессиональных спортсменов может дать неверный результат так как высокое значение индекса в этом случае объясняется развитой мускулатурой.
+                <br/>Согласно израильскому исследованию, идеальным для мужчин является индекс массы тела в 25—27. Средняя продолжительность жизни мужчин с таким ИМТ была максимальна.  </p> 
+        </div><!--END TEXT-->
+
+                             						  
+                                                     <hr/ size = "3" color="blue">
+
+        <div class="forma"> <!--BEGIN FORMA-->
+                              <h3 class="headline" align="center">Расчет индекса массы</h3>
+            <form action="formdata.php" method="POST" name="f"> <!--создание формы ввода веса и массы человека-->
+
+                             <!--БЛОК ВВОДА ДАННЫХ-->
+                <fieldset name="INPUT">
+                     <legend> Ввод физических данных</legend>
+
+                     <p> <label for="w">Ввод массы человека в килограммах &nbsp; </label>  
+					 <input type="number" name="w"  size="9" maxlength="5" class="input"> </p> <!-- окно ввода веса человека -->
+
+                     <p><label for="h"> Ввод роста человека в сантиметрах &nbsp;&nbsp;   </label>  
+					 <input type="number" name="h"  size="9" maxlength="5" class="input"> </p> <!-- окно ввода роста человека -->
+                </fieldset>
+
+                                 <!-- ВЫВОД ДАННЫХ-->
+                <fieldset name="OUTPUT">
+                     <legend>Расчет индекса массы</legend>
+
+                     <p> Индекс массы человека &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; <input  class="out" type="text" name="ind"  size="9" class="input"> &nbsp; кг/м кв.</p> <!-- окно вывода величины индекса массы  человека -->
+
+                                  <!--КНОПКА ЗАПУСКА-->
+                     <p><INPUT class="button" onclick="iwh()" TYPE="button" VALUE="РАСЧЁТ ИНДЕКСА МАССЫ"/> <INPUT class="button" TYPE="reset" VALUE="СБРОС" /> </p> <!-- кнопка запуска расчета индекса веса человека -->
+                </fieldset>
+
+            </form>
+        </div><!--END FORMA-->
+		<div id="footer">    </div>
+	</div>
+</body>
+</html>

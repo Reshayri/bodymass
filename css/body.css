@@ -1,0 +1,46 @@
+#block {
+	
+	
+                     width: 800px; 
+                     background: #e6ecff;
+                     padding: 15px;
+                     padding-right: 18px; 
+                     border: solid 3px green;
+		             border-radius:10px;
+	                 margin: 50px auto; 
+                     font-family:"Times New Roman"; /*Тип шрифта */
+                     font-size: 18px; /* Размер шрифта*/ 
+                 }
+			h2 {
+			        text-align: center;
+					color: green;
+			     }
+				 
+				 .input {
+					 font-size: 24px;
+				 }
+				 .out {
+					 font-size: 24px;
+				 }
+			.headline {
+			      color: #ff4000;
+				  }
+			.button {
+                     background-color: white;
+                    color: black;
+                    border: 2px solid #4CAF50; /* Green */
+	                border-radius: 10px;
+	                padding: 10px 20px;
+	                font-size: 16px;
+                  }
+            .button:hover {
+                    background-color: green;
+                   }	  
+				 
+		    #footer {
+                      text-align: center;
+	                  color: #3366ff; 
+					  }
+            
+	
+}
