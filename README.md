@@ -1,2 +1,2 @@
-# bodymass.github.io
+# bodymass
 Индекс массы тела
